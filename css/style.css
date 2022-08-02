@@ -78,7 +78,7 @@ header .btn a{
     line-height: 20px;
     letter-spacing: 0.4px;
     color: black;
-    transition: 0.3s;
+    transition: 0.4s;
     display: block;
 }
 header .btn a:hover{

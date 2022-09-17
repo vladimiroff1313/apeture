@@ -28,6 +28,32 @@
     padding: 0;
     margin: 0;
 }
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    animation: box infinite 3s;
+    position: absolute;
+    z-index: 10;
+}
+@keyframes box {
+    0%{
+        position: absolute;
+        right: 50%;
+        transform: rotate (360deg);
+    }
+    50%{
+        position: absolute;
+        right: 70%;
+        transform: rotate (360deg);
+        top: 30%;
+    }
+    100%{
+        position: absolute;
+        right: 60%;
+        transform: rotate (180deg);
+    }
+}
 
 header {
     background-color: black;
@@ -74,7 +100,7 @@ header .btn a{
     border-radius: 14px;
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 20px;
     letter-spacing: 0.4px;
     color: black;
@@ -179,7 +205,7 @@ header .btn a:hover{
 }
 .components li {
     margin-left: 16px;
-    font-family: 'Poppins';
+    font-family: 'Roboto Lt';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
